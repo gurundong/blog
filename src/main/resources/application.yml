@@ -1,0 +1,22 @@
+debug: false
+server: 
+  port: 8090
+spring: 
+  application:
+    name: blog
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/blog?useUnicode=true&characterEncoding=UTF8&connectTimeout=10000&socketTimeout=100000&allowMultiQueries=true
+    username:  root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  profiles:
+    active: dev
+#    active: prod
+  redis:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
+  config-location: classpath:mybatis-config.xml
+
+
