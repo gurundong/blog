@@ -31,6 +31,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-redis')
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '2.1.0.RELEASE'
     compile('org.projectlombok:lombok:1.18.2')
+	compile('com.alibaba.otter:canal.client:1.1.0')
     testCompile('org.springframework.boot:spring-boot-starter-test')
     compile('com.github.pagehelper:pagehelper:5.1.2')
     runtime('mysql:mysql-connector-java')

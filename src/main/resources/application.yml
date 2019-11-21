@@ -5,9 +5,9 @@ spring:
   application:
     name: blog
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/blog?useUnicode=true&characterEncoding=UTF8&connectTimeout=10000&socketTimeout=100000&allowMultiQueries=true
-    username:  root
-    password: root
+    url: jdbc:mysql://10.110.1.26:3306/icp_bss?useUnicode=true&characterEncoding=UTF8&connectTimeout=10000&socketTimeout=100000&allowMultiQueries=true
+    username:  bss_product
+    password: bss_product_2019
     driver-class-name: com.mysql.jdbc.Driver
   profiles:
     active: dev
