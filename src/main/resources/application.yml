@@ -18,5 +18,12 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/**/*.xml
   config-location: classpath:mybatis-config.xml
+management:
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        #        include: "*"
+        include: prometheus
 
 
