@@ -35,4 +35,6 @@ dependencies {
     testCompile('org.springframework.boot:spring-boot-starter-test')
     compile('com.github.pagehelper:pagehelper:5.1.2')
     runtime('mysql:mysql-connector-java')
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile('io.micrometer:micrometer-registry-prometheus')
 }
